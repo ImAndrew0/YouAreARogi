@@ -1,0 +1,44 @@
+<html>
+<head>
+<style>
+h1 {text-align: center;}
+p {text-align: center;}
+div {text-align: center;}
+</style>
+
+<br>
+<h1>You are a Rogi!</h1>
+
+
+
+<script type="text/javascript">
+
+    var stile = "top=30, left=30, width=400, height=400, status=no, menubar=no, toolbar=no scrollbars=no";
+    function Popup()
+    {
+        window.open("xd.html", "", stile);
+    }
+    
+    
+    function repeat(func, times) {
+        func();
+        times && --times && repeat(Popup, times);
+    }
+
+
+
+</script>
+
+
+
+<body onload="javascript:repeat(function () { Popup(); }, 50);"></body>
+<audio src="youareanidiot.mp3" autoplay="autoplay" loop="loop"></audio>
+
+</head>
+<body>
+
+
+
+
+
+
